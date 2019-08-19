@@ -37,10 +37,10 @@ c = a + b
 print(c) 
 
 # Solution to Question 8.
-fn = "Neel "
+fn = "Neel"
 ln = "Adwani"
-nn = "( neeltron ) "
-print(fn+nn+ln) 
+nn = "neeltron"
+print(fn+" ( "+nn+" ) "+ln) 
 
 # Solution to Question 9
 name = "Neel"
