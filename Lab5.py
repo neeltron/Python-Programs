@@ -142,3 +142,25 @@ elif day == 30:
     month += 1
 
 print("Day:",day,"\nMonth:",month,"\nYear:",year)
+
+# Additional Exercise
+name = input("Enter your name: ")
+bas_sal = int(input("Enter the basic salary: "))
+hra = bas_sal * 20 / 100
+da = bas_sal * 12 / 100
+nps = bas_sal * 5 / 100
+cpf = bas_sal * 12 / 100
+ac_al = 1000
+ta = bas_sal * 5 / 100
+gross_sal = bas_sal + hra + da + nps + cpf + ac_al + ta
+inc_tax = 0
+if gross_sal <= 20000:
+    inc_tax = 0
+elif gross_sal <= 50000:
+    inc_tax = 5
+elif gross_sal <= 100000:
+    inc_tax = 10
+else:
+    inc_tax = 20
+net_sal = gross_sal + gross_sal * inc_tax / 100
+print("Hey",name+", Your basic salary is", str(bas_sal)+". The HRA is", str(hra)+". The DA is", str(da)+". The NPS is",str(nps)+". The CPF is",str(cpf)+". The Academic Allowance is", str(ac_al)+". The TA is", str(ta)+". The gross salary is", str(gross_sal)+". The tax deduction is", str(inc_tax)+"%. The net salary is: Rs.",str(net_sal))
