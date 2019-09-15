@@ -1,6 +1,6 @@
 # Solution to Question number 1
 num = int(input("Enter a number: "))
-if num % 2 == 0 and num % 3 == 0:
+if num % 3 == 0 and num % 5 == 0:
     print("The number is divisible by 3 and 5 both.")
 
 # Solution to Question number 2
