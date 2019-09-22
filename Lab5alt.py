@@ -20,6 +20,8 @@ else:
     print("Not an Armstrong number.")
 
 # Q3) Print Fibonacci series up to given term.
+"""
+This one's experimental
 num = int(input("Enter a number: "))
 sk = 0
 pr = 0
@@ -29,7 +31,7 @@ while ne < num:
     print(str(ne))
     pr = ne
     sk = ne - pr
-    ne = ne + pr
+    ne = ne + pr"""
 
 # Q4) Write a program to find prime number.
 n = int(input("Enter a number: "))
