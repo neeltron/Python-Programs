@@ -52,7 +52,7 @@ while n > 0:
     rev *= 10
     rev = rev + n % 10
     n = n // 10
-if rev == num:
+if rev == temp:
     print("Palindrome")
 else:
     print("Not Palindrome")
