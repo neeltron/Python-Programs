@@ -56,11 +56,11 @@ for i in lst:
     count += 1
 print(count)
 
-# Q 3.8) Capitalize first character of each word in a given sentence
+# Q 3.9) Capitalize first character of each word in a given sentence
 str = input("Enter a sentence: ")
 print(str.title())
 
-# Q 3.9) Capitalize first character without using title()
+# Q 3.10) Capitalize first character without using title()
 str = input("Enter a sentence: ") + " "
 lst = []
 temp = ""
